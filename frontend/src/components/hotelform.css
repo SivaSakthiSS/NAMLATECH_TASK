@@ -1,0 +1,141 @@
+.hotel-form {
+    width: 500px;
+    max-width: 100%;
+    margin: 20px auto 30px;
+    padding: 24px;
+    background-color: #ffffff;
+    border: 1px solid #e9ddd7;
+    border-radius: 10px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 15px rgba(80, 55, 45, 0.08);
+}
+
+.hotel-form label {
+    display: block;
+    margin-bottom: 7px;
+    color: #332c29;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.hotel-form input,
+.hotel-form textarea {
+    width: 100%;
+    padding: 10px 12px;
+    margin-bottom: 7px;
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #e9ddd7;
+    border-radius: 6px;
+    color: #332c29;
+    font-size: 14px;
+}
+
+.hotel-form input::placeholder,
+.hotel-form textarea::placeholder {
+    color: #9b918c;
+}
+
+.hotel-form input:focus,
+.hotel-form textarea:focus {
+    outline: none;
+    border-color: #e97862;
+    box-shadow: 0 0 0 2px rgba(233, 120, 98, 0.10);
+}
+
+.hotel-form textarea {
+    height: 90px;
+    resize: vertical;
+}
+
+.hotel-form input[type="file"] {
+    padding: 8px;
+    background-color: #fffaf8;
+    cursor: pointer;
+}
+
+.hotel-photo {
+    width: 150px;
+    height: 100px;
+    margin: 8px 0 12px;
+    object-fit: cover;
+    border-radius: 7px;
+    border: 1px solid #e9ddd7;
+}
+
+.error {
+    color: #c45142;
+    font-size: 13px;
+    margin: 2px 0 7px;
+}
+
+.form-buttons {
+    display: flex;
+    gap: 12px;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.form-buttons button {
+    flex: 1;
+    width: auto;
+    height: 42px;
+    margin: 0;
+    padding: 0 16px;
+    border-radius: 7px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: 0.2s ease;
+}
+
+.form-buttons button[type="submit"] {
+    background-color: #e97862;
+    color: #ffffff;
+    border: 1px solid #e97862;
+}
+
+.form-buttons button[type="submit"]:hover {
+    background-color: #d96550;
+    border-color: #d96550;
+}
+
+.cancel-button {
+    background-color: #ffffff;
+    color: #6d5a50;
+    border: 1px solid #d8ccc6;
+}
+
+.cancel-button:hover {
+    background-color: #f8eee9;
+    border-color: #c9b9b1;
+    color: #4f433e;
+}
+
+@media (max-width: 600px) {
+    .hotel-form {
+        width: 100%;
+        padding: 18px;
+        margin: 15px auto 20px;
+    }
+
+    .hotel-form input,
+    .hotel-form textarea {
+        font-size: 14px;
+    }
+
+    .hotel-photo {
+        width: 140px;
+        height: 90px;
+    }
+
+    .form-buttons {
+        gap: 10px;
+    }
+
+    .form-buttons button {
+        height: 40px;
+        font-size: 13px;
+    }
+}
