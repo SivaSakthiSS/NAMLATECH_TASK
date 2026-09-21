@@ -8,7 +8,7 @@ function Header({onAddHotel}){
                <span>GrandStay</span>
             </div>
 
-            <h1 className="title">Wellcome GrandStay !!</h1>
+            <h1 className="title">Welcome GrandStay !!</h1>
 
             <button className="header-add-button" onClick={onAddHotel}>
                 + Add Hotel
