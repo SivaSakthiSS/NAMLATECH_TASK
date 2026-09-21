@@ -9,19 +9,22 @@ function Sidebar({onAddHotel}){
             <div className="sidebar-menu">
 
                 <button className="side-page">
-                    <span>Home</span>
+                    <span>⌂ Home</span>
                 </button>
 
                 <button className="side-page">
-                    <span>Hotels</span>
+                    <span>▣ Hotels</span>
                 </button>
 
                 <button className="side-page" onClick={onAddHotel}>
-                   <span>Add Hotel</span> 
+                   <span>＋Add Hotel</span> 
                 </button>
 
-                <button className="side-page">
-                    <span>About</span>
+                <button className="side-page" onClick={() => {
+                    document.getElementById("about").scrollIntoView({
+                    behavior: "smooth"});}}>
+                    
+                    <span>ⓘ About</span>
                 </button>
             </div>
         </aside>

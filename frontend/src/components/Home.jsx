@@ -104,8 +104,6 @@ function Home(){
             /> 
         )}
         
-        <h1 className="title">Hotel Management</h1>
-        
         <SearchBox search={search} setSearch={setSearch} 
           minPrice={minPrice} setMinPrice={setMinPrice}
           maxPrice={maxPrice} setMaxPrice={setMaxPrice}/>
@@ -128,6 +126,16 @@ function Home(){
             ))}
         </div>
         <Pagination currentPage={currentPage} setCurrentPage={setCurrentPage} totalHotels={totalHotels}/>
+
+        <section className="about-section" id="about">
+            <h2>About GrandStay</h2>
+
+            <p className="detail"> GrandStay makes it easy to discover and manage comfortable stays.
+                Explore hotels, check prices, view complete details and find hotel
+                locations easily.
+            </p>
+            
+        </section>
 
         </main>
         </div>

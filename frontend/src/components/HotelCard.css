@@ -1,11 +1,11 @@
 .hotel-card {
     width: 100%;
     height: 100%;
-    background-color: #ffffff;
-    border: 1px solid #e9ddd7;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E1D8;
     border-radius: 10px;
     overflow: hidden;
-    box-shadow: 0 3px 10px rgba(80, 55, 45, 0.08);
+    box-shadow: 0 3px 10px rgba(18, 57, 91, 0.08);
     display: flex;
     flex-direction: column;
     box-sizing: border-box;
@@ -14,7 +14,7 @@
 
 .hotel-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 6px 18px rgba(80, 55, 45, 0.12);
+    box-shadow: 0 6px 18px rgba(18, 57, 91, 0.12);
 }
 
 .hotel-image {
@@ -37,12 +37,12 @@
     font-family: Georgia, serif;
     font-size: 19px;
     font-weight: 700;
-    color: #332c29;
+    color: #12395B;
 }
 
 .description {
     margin: 0;
-    color: #746b67;
+    color: #666666;
     font-size: 13px;
     line-height: 1.5;
     height: 40px;
@@ -53,7 +53,7 @@
     margin: 14px 0;
     font-size: 16px;
     font-weight: 700;
-    color: #e97862;
+    color: #12395B;
 }
 
 .hotel-buttons {
@@ -74,32 +74,33 @@
 }
 
 .view-button {
-    background-color: #e97862;
-    color: white;
-    border: 1px solid #e97862;
+    background-color: #E9A928;
+    color: #12395B;
+    border: 1px solid #E9A928;
 }
 
 .view-button:hover {
-    background-color: #d96550;
+    background-color: #D9961E;
 }
 
 .edit-button {
-    background-color: white;
-    color: #554a46;
-    border: 1px solid #ddd2cc;
+    background-color: #FFFFFF;
+    color: #12395B;
+    border: 1px solid #E5E1D8;
 }
 
 .edit-button:hover {
-    background-color: #fff5f1;
-    border-color: #e97862;
+    background-color: #F8F6F2;
+    border-color: #E9A928;
 }
 
 .delete-button {
-    background-color: white;
-    color: #c45142;
-    border: 1px solid #edc2ba;
+    background-color: #FFFFFF;
+    color: #12395B;
+    border: 1px solid #E5E1D8;
 }
 
 .delete-button:hover {
-    background-color: #fff3f0;
+    background-color: #F8F6F2;
+    border-color: #E9A928;
 }

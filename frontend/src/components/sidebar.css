@@ -1,7 +1,7 @@
 .sidebar {
-    width: 230px;
+    width: 180px;
     min-height: calc(100vh - 64px);
-    background-color: #f6e9e2;
+    background-color: #12395B;
     padding: 28px 15px;
     box-sizing: border-box;
     flex-shrink: 0;
@@ -9,7 +9,7 @@
 }
 
 .dash-title {
-    color: #e97862;
+     color: #E9A928;
     font-family: Georgia, serif;
     font-size: 17px;
     margin: 0 0 28px 10px;
@@ -27,7 +27,7 @@
     border: none;
     border-radius: 7px;
     background-color: transparent;
-    color: #554a46;
+    color: #FFFFFF;
     text-align: left;
     font-size: 14px;
     cursor: pointer;
@@ -65,5 +65,6 @@
     .side-page {
         width: auto;
         padding: 8px 10px;
+        color: white;
     }
 }

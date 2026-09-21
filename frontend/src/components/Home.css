@@ -1,6 +1,6 @@
 .app-page {
     min-height: 100vh;
-    background-color: #faf6f3;
+    background-color: #F8F6F2;
 }
 
 .dashboard {
@@ -21,7 +21,7 @@
     font-size: 32px;
     font-weight: 700;
     text-align: center;
-    color: #332c29;
+    color: #12395B;
 }
 
 .search-filter {
@@ -35,22 +35,22 @@
     flex: 1;
     height: 42px;
     padding: 0 14px;
-    background-color: #ffffff;
-    border: 1px solid #e9ddd7;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E1D8;
     border-radius: 7px;
-    color: #332c29;
+    color: #12395B;
     font-size: 14px;
     box-sizing: border-box;
 }
 
 .search-filter input::placeholder {
-    color: #9b918c;
+    color: #8A8A8A;
 }
 
 .search-filter input:focus {
     outline: none;
-    border-color: #e97862;
-    box-shadow: 0 0 0 2px rgba(233, 120, 98, 0.12);
+    border-color: #E9A928;
+    box-shadow: 0 0 0 2px rgba(233, 169, 40, 0.12);
 }
 
 .hotel-heading {
@@ -64,15 +64,15 @@
     margin: 0;
     font-family: Georgia, serif;
     font-size: 22px;
-    color: #332c29;
+    color: #12395B;
 }
 
 .add-hotel-button {
     padding: 10px 18px;
     border: none;
     border-radius: 6px;
-    background-color: #e97862;
-    color: white;
+    background-color: #E9A928;
+    color: #12395B;
     font-size: 14px;
     font-weight: 600;
     cursor: pointer;
@@ -80,7 +80,7 @@
 }
 
 .add-hotel-button:hover {
-    background-color: #d96550;
+    background-color: #D9961E;
 }
 
 .hotel-list {
@@ -96,7 +96,7 @@
     top: 20px;
     right: 20px;
     padding: 12px 20px;
-    background-color: #e97862;
+    background-color: #12395B;
     color: white;
     border-radius: 6px;
     z-index: 1000;
@@ -112,23 +112,48 @@
 
 .pagination button {
     padding: 9px 18px;
-    border: 1px solid #e97862;
+    border: 1px solid #E9A928;
     border-radius: 6px;
-    background-color: #e97862;
-    color: white;
+    background-color: #E9A928;
+    color: #12395B;
     font-size: 13px;
     cursor: pointer;
 }
 
 .pagination button:hover {
-    background-color: #d96550;
+    background-color: #D9961E;
 }
 
 .pagination button:disabled {
-    background-color: #ffffff;
-    color: #aaa09b;
-    border-color: #e9ddd7;
+    background-color: #FFFFFF;
+    color: #AAA09B;
+    border-color: #E5E1D8;
     cursor: not-allowed;
+}
+
+.about-section {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 35px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E1D8;
+    border-radius: 10px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.about-section h2 {
+    margin: 0 0 15px;
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: #12395B;
+}
+
+.about-section p {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #555555;
 }
 
 @media (max-width: 900px) {

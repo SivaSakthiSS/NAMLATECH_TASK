@@ -2,13 +2,15 @@
     width: 100%;
     height: 64px;
     padding: 0 30px;
-    background-color: #fffdfc;
+    background-color: #0b4373;;
+    color: white;
     display: flex;
     align-items: center;
     justify-content: space-between;
     box-sizing: border-box;
-    border-bottom: 1px solid #e9ddd7;
+    border-bottom: 1px solid #E5E1D8;
 }
+
 .logo img {
     width: 32px;
     height: 32px;
@@ -21,7 +23,7 @@
     font-family: Georgia, serif;
     font-size: 21px;
     font-weight: 700;
-    color: #332c29;
+    color:white;
 }
 
 .logo span {
@@ -31,17 +33,23 @@
 
 .header-add-button {
     padding: 9px 18px;
-    background-color: #e97862;
-    color: white;
-    border: 1px solid #e97862;
+    background-color: #E9A928;
+    color: #12395B;
+    border: 1px solid #E9A928;
     border-radius: 6px;
     font-size: 13px;
     font-weight: 600;
     cursor: pointer;
 }
-.header-add-button:hover {
-    background-color: #d96550;
+.title{
+    padding-top: 30px;
+    color: white;
 }
+
+.header-add-button:hover {
+    background-color: #D9961E;
+}
+
 @media (max-width: 600px) {
     .header {
         height: 58px;
