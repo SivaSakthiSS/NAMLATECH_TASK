@@ -1,7 +1,7 @@
 # NamlaTech Interview Task
 
 ## Project
-Hotel List Page - CRUD Form with Responsive UI
+GrandStay Hotel List Page - CRUD Form with Responsive UI
 
 ## Technologies
 
